@@ -5,7 +5,7 @@ This project explores machine learning approaches for patch-level cloud classifi
 ## Models
 - Random Forest
 - Support Vector Machine (SVM)
-- Convolutional Neural Network (CNN)
+- Deep Convolutional Neural Network (CNN)
 
 ## Key Contributions
 - Feature engineering using NDVI and brightness
