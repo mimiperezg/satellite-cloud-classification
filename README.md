@@ -40,22 +40,18 @@ This project uses the 38-Cloud dataset. If you use this dataset, please cite the
   IEEE International Workshop on Multimedia Signal Processing (MMSP), 2018.  
   https://doi.org/10.1109/MMSP.2018.8547095
 
-## How to Run
+# How to Run This Notebook
 
-1. Download the 38-Cloud dataset from:
-   (https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset)
+This notebook was developed in Google Colab.
 
-2. Place the dataset in the following directory:
-   /content/data/ (or specify your path)
+The raw 38-Cloud dataset is not included in this GitHub repository because of file size. To reproduce the results:
 
-3. Open the notebook in Google Colab
+1. Download the 38-Cloud dataset from: (https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset)
+2. Upload it to Google Drive or Colab.
+3. Update the `base` path in each section to match your dataset location.
+4. Run the notebook from top to bottom.
 
-4. Run all cells from top to bottom:
-   - Data preprocessing
-   - Feature extraction
-   - Model training
-
-Note: CNN dataset generation may take significant time due to image loading.
+Preprocessed datasets were generated during experimentation and can be rebuilt using the commented dataset-building cells. These cells are commented out to avoid long runtimes, especially for the CNN image tensor dataset.
 
 ## Author
 Milena Perez-Gerus
