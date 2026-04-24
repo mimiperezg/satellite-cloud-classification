@@ -13,9 +13,9 @@ This project explores machine learning approaches for patch-level cloud classifi
 - Comparison between classical ML and deep learning approaches
 
 ## Results
-- CNN achieved the highest performance (~94.9% validation accuracy)
+- Deep CNN achieved comparable peformed with RF and SVM
 - Feature engineering significantly improved Random Forest and SVM performance
-- Tradeoff observed between interpretability (RF/SVM) and performance (CNN)
+- Tradeoff observed between interpretability (RF/SVM) and slightly better performance (CNN)
 
 ## Files
 - `model.ipynb` - code for loading data, preprocessing, and running models
