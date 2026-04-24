@@ -43,7 +43,7 @@ This project uses the 38-Cloud dataset. If you use this dataset, please cite the
 ## How to Run
 
 1. Download the 38-Cloud dataset from:
-   [INSERT LINK HERE]
+   (https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset)
 
 2. Place the dataset in the following directory:
    /content/data/ (or specify your path)
